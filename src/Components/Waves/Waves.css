@@ -1,0 +1,92 @@
+
+.page-container{
+    padding: 60px 24px;
+    text-align: center;
+}
+.page-container h1{
+    font-size: 72px;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 20px 36px;
+    background: linear-gradient(97deg, #0096FF, #BB64FF 42%, #F2416B 74%, #EB7500);
+    background-clip: text;
+    color: transparent;
+}
+.ptext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.ptext p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.package-choice{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.package-container{
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.page-container h4{
+    padding: 0 30px;
+    font-weight: 400;
+}
+.page-container hr{
+    width: 200px;
+    margin: 15px auto; 
+}
+.package-price p{
+    
+    padding-left: 20px;
+}
+.package-price .save{
+    width: 110px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: orange;
+    font-weight: 400;
+}  
+.package-price .before{
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 18px;
+} 
+.package-price .actual{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.package-container p{
+    margin: 15px 0;
+}
+.page-container button{
+    width: 250px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 0 20px 20px 0;
+    border: 0.5px solid black;
+    background-color: #1d4ed8;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.package-container button:hover{
+    background-color: white;
+    color: #1d4ed8;
+}
+.package-option{
+    width: 250px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 20px 0 0 20px;
+    border: 0.5px solid black;
+    padding: 0 10px;
+}
+

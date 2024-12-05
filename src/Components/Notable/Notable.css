@@ -1,0 +1,94 @@
+.notable-wrapper{
+
+width: 100%;
+
+background-image: url(../../assets/bg1.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+.notable-container{
+    padding: 70px 24px;
+    text-align: center;
+}
+.notable-container h1{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 40px 36px;
+    color: white;
+}
+.notable-container h4{
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+
+.tab-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    
+    
+}
+
+.tabs{
+    max-width: 410px;
+ 
+}
+
+.tabs button{
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    height: 25%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 20px 0 0 20px;
+    /* text-align: left; */
+}
+.tabs button:hover{
+    transition: 0.3s;
+    background: white;
+    color: black;
+    opacity: 20%;
+}
+
+
+
+.tab-images img{
+   border-radius: 20px; 
+   border: 0.5px solid black;
+}
+
+.photo-render img{
+    border-radius: 0 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+/* iframe{
+    border-radius: 20px;
+    pointer-events: none;
+    user-select: none;
+    
+} */
+ /* .slide-container{
+    max-width: 100%;
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+ }
+ .slides {
+    display: none;
+    width: 100%;
+  }
+
+  .fade {
+    animation: fadeEffect 2s ease-in-out;
+  }
+
+  @keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  } */

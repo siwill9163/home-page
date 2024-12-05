@@ -1,0 +1,38 @@
+.foot-container{
+    background-image: url(../../assets/bg2.jpg);
+    background-position: center;
+    height: 250px;
+}
+.waves{
+    width: 100%;
+    position: absolute;
+}
+.foot-cont-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.foot-cont-wrapper-left p{
+    line-height: 28px;
+}
+.foot-cont-wrapper-left p span{
+    font-weight: 400;
+}
+.foot-cont-wrapper-right a{
+    margin: 30px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: white;
+    border: .5px solid black;
+    cursor: pointer;
+}
+.foot-cont-wrapper-right a span{
+    font-size: 20px;
+}
+.foot-cont-wrapper-right a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+

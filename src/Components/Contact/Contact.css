@@ -1,0 +1,60 @@
+.contact{
+    width: 100%;
+    height: 600px;
+    background-image: url(../../assets/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.contact h1{
+    background: linear-gradient(97deg, #0096FF, #BB64FF 42%, #F2416B 74%, #EB7500);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+    padding: 30px 0;
+}
+.envelope{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    margin: 0 auto;
+}
+.envelope input{
+    height: 40px;
+    background-color: transparent ;
+    padding-left: 10px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    padding-right: 10px;
+    
+    
+}
+
+.envelope textarea{
+    background-color: transparent ;
+    border: 0.5px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    resize: none;
+}
+.envelope button{
+    height: 40px;
+    background-color: #374151 ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.envelope button:hover{
+    background: linear-gradient(97deg, #0096FF, #BB64FF 42%, #F2416B 74%, #EB7500);
+    transform: scale(1.1);
+    color: black;
+}
+
+
+

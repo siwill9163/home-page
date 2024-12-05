@@ -1,0 +1,55 @@
+.nav-container{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* left side of navbar */
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left a{
+    display: flex;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.nav-left a:hover{
+    background: linear-gradient(97deg, #0096FF, #BB64FF 42%, #F2416B 74%, #EB7500);
+    background-clip: text;
+    color: transparent;
+}
+.nav-left img{
+    width: 200px;
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+
+/* right side of navbar */
+.nav-right a{
+    background: lightblue;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-right: 50px;
+    border-radius: 50px;
+    background: linear-gradient(97deg, #0096FF, #BB64FF 42%, #F2416B 74%, #EB7500);
+    color: white;
+}
+.nav-right a:hover{
+    background: linear-gradient(-97deg, #0096FF, #BB64FF 42%, #F2416B 74%, #EB7500);
+    opacity: 80%;
+    color: white;
+}
+
+
+/* media menu hidden */
+.menu{
+    display: none;
+}
+/* media menu hidden */
